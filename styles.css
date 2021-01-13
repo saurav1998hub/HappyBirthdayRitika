@@ -1,0 +1,37 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #fff6a9;
+  text-align: center;
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+  height: 200px;
+}
+.pyro{
+  align-self: center;
+}
+.main{
+  background-image:url("background_horizontal.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1080px) {
+  .main{
+    background-image:url("background_vertical.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1{
+    padding-top: 15rem;
+  }
+}
